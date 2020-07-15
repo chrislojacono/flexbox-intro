@@ -44,10 +44,42 @@ ul a:hover{
 .dogs{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: center; }
     
-.dogs img{
+.dogs img {
     height: 500px;
     margin: 50px;
+    padding: 2em;
+}
 
+
+
+/****** Cats *******/
+
+.cats { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+    
+.cats img {
+    height: 500px;
+    margin: 100px;
+    size: 0em;
+    border: plum 10px solid;
+    border-radius: 20px;
+
+}
+
+.cats img:hover{
+    background-color: plum;
+}
+.cathead{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 250px;
+    letter-spacing: .45em;
+
+
+    
 }
