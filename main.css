@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(13, 135, 139);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+.logo {
+    padding: 1em;
+    text-transform: uppercase;
+}
+.logo a {
+    color: palevioletred;
+}
+ul {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    
+
+}
+.logo a,
+ul a{
+    text-decoration: none;
+    letter-spacing: .45em;
+    display: block;
+    padding: 1em;
+    
+}
+
+ul a:hover{
+    background-color: peachpuff;
+}
